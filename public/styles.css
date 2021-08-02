@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.wrapper {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .typing-demo {
+    width: 33ch;
+    animation: typing 1s steps(22);
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+    font-size: 1em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
